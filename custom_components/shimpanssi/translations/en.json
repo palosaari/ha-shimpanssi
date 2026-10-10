@@ -1,0 +1,47 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Shimano E-Bike",
+        "description": "Enter the Bluetooth MAC address of your bike.",
+        "data": {
+          "mac": "MAC Address (e.g. D2:7C:C6:2C:30:AB)"
+        }
+      }
+    },
+    "error": {
+      "invalid_mac": "Invalid MAC address format. Please use XX:XX:XX:XX:XX:XX."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "odometer": {
+        "name": "Odometer"
+      },
+      "battery": {
+        "name": "Battery"
+      },
+      "trip_distance": {
+        "name": "Trip distance"
+      },
+      "trip_time": {
+        "name": "Trip time"
+      },
+      "trip_speed_max": {
+        "name": "Trip speed max"
+      },
+      "trip_speed_average": {
+        "name": "Trip speed average"
+      },
+      "range_eco": {
+        "name": "Range Eco"
+      },
+      "range_trail": {
+        "name": "Range Trail"
+      },
+      "range_boost": {
+        "name": "Range Boost"
+      }
+    }
+  }
+}

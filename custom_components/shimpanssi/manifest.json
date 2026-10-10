@@ -1,0 +1,13 @@
+{
+  "domain": "shimpanssi",
+  "name": "Shimpanssi",
+  "config_flow": true,
+  "documentation": "https://github.com/palosaari/ha-shimpanssi",
+  "dependencies": [
+    "bluetooth"
+  ],
+  "codeowners": ["@palosaari"],
+  "requirements": [],
+  "iot_class": "local_polling",
+  "version": "1.0.0"
+}
